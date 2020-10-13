@@ -1,0 +1,65 @@
+
+h1 {
+    color:rgb(255, 255, 255);
+    padding-left:500px ;
+ }
+
+     .header * {
+         color:rgb(255, 255, 255);
+         border: solid;
+         opacity: 0.3;
+         
+     } 
+     .header{
+         background-color: rgb(0, 0, 0);
+         display: flex;
+         justify-content: space-between;
+     } 
+     .menu *{
+         display: flex;
+         justify-content: space-between;
+         flex-wrap: wrap-reverse;
+         color: rgb(255, 255, 255);
+         margin-right: 30px;
+
+     }
+     .menu a{
+         margin-left: 20px;
+     }
+     .grid{
+         display: flex;
+         flex-wrap: wrap;
+
+     }
+     body{
+         background-color:rgb(255, 255, 255);
+         color: #000;
+         
+     }
+     a:link{ 
+         color: rgb(255, 255, 255);
+     }
+     a:visited{ 
+        color: rgb(255, 255, 255);
+    }
+     
+     .footer{
+         display:flex;
+         justify-content: space-between;
+     
+     }
+     
+p.double {border-style: double;}
+.item{
+    position: relative;
+}
+  .item p{
+      position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       opacity: 0;
+  }
+  .item:hover img{
+opacity: 0.33;
+  }  
